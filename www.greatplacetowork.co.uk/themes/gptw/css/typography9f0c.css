@@ -1,0 +1,536 @@
+/* SAILEC */
+
+@font-face {
+	font-family: 'Sailec-Bold';
+	src: url('../webfonts/Sailec-Bold.eot');
+	src: url('../webfonts/Sailec-Boldd41d.eot?#iefix') format('embedded-opentype'), url('../webfonts/Sailec-Bold.woff2') format('woff2'), url('../webfonts/Sailec-Bold.woff') format('woff'), url('../webfonts/Sailec-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sailec-Medium';
+	src: url('../webfonts/Sailec-Medium.eot');
+	src: url('../webfonts/Sailec-Mediumd41d.eot?#iefix') format('embedded-opentype'), url('../webfonts/Sailec-Medium.woff2') format('woff2'), url('../webfonts/Sailec-Medium.woff') format('woff'), url('../webfonts/Sailec-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sailec-Regular';
+	src: url('../webfonts/Sailec-Regular.eot');
+	src: url('../webfonts/Sailec-Regulard41d.eot?#iefix') format('embedded-opentype'), url('../webfonts/Sailec-Regular.woff2') format('woff2'), url('../webfonts/Sailec-Regular.woff') format('woff'), url('../webfonts/Sailec-Regular.ttf') format('truetype');
+}
+
+.ff-Sailec-Bold {
+	font-family: Sailec-Bold, serif;
+}
+
+.ff-Sailec-Medium {
+	font-family: Sailec-Medium, serif;
+}
+
+.ff-Sailec-Regular {
+	font-family: Sailec-Regular, serif;
+}
+
+.typography {
+
+}
+
+img.left {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 8px;
+}
+
+
+.wp-section a {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	word-break: break-word;
+}
+
+h1, .typography h1 {
+	/*font-weight: 200;*/
+	font-weight: 400;
+	font-size: 54px;
+	color: #005EBC;
+	font-family: 'Sailec-Medium', sans-serif;
+	margin-bottom: 30px;
+	letter-spacing: -.01em;
+	/*text-transform: uppercase;*/
+}
+
+h2, .typography h2 {
+	font-weight: 600;
+	font-size: 32px;
+	color: #005EBC;
+	font-family: "Sailec-Medium", sans-serif;
+	margin-bottom: 30px;
+	letter-spacing: -.01em;
+}
+
+h3, .typography h3 {
+	font-weight: 400;
+	font-size: 36px;
+	color: #002171;
+	font-family: 'Sailec-Medium', sans-serif;
+	letter-spacing: -.01em;
+}
+
+h4, .typography h4 {
+	font-weight: 600;
+	font-size: 20px;
+	color: #005EBC;
+	border-bottom: 1px solid #222;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	font-family: 'Sailec-Medium', sans-serif;
+	letter-spacing: -.01em;
+}
+
+h5, .typography h5 {
+	/* color: #555!important; */
+	font-size: 25px;
+	font-weight: 400;
+	font-family: 'Sailec-Medium', sans-serif;
+	letter-spacing: -.01em;
+}
+
+h6, .typography h6 {
+	text-transform: uppercase;
+	color: #555;
+	font-size: 14px;
+	line-height: inherit;
+	font-family: 'Sailec-Medium', sans-serif;
+	letter-spacing: -.01em;
+}
+
+hr, .typography hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-color: #AAA;
+}
+
+a, .typography a {
+	cursor: pointer;
+}
+
+.contentContainer a, .blog-content-gptw a {
+	text-decoration: underline;
+}
+
+.blog-content-gptw a {
+	color: #333 !important;
+}
+
+
+body, .typography body {
+	font-family: 'Sailec-Regular', sans-serif;
+	line-height: 1.42857143;
+}
+
+p,
+.typography p {
+	/*   color: #5C6066;*/
+
+	color: #555;
+	font-size: 14px;
+	margin: 0 0 15px;
+	font-family: 'Sailec-Regular', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+}
+
+.typography .Yellow a {
+	color: #555;
+	text-decoration: underline;
+}
+
+.typography .Yellow a:hover {
+	color: #00ADEF;
+	text-decoration: none;
+}
+
+li,
+.typography li {
+	/*  color: #5C6066;*/
+
+	color: #555;
+	font-size: 14px;
+	font-family: 'Sailec-Regular', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+}
+
+
+.typography img.center {
+	text-align: center;
+	margin: auto;
+}
+
+.H1Style-54px-Blue,
+.H1Style-54px-Blue li {
+	font-size: 54px !important;
+	color: #005EBC !important;
+	font-weight: 400 !important;
+	margin-bottom: 30px !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H1Style-54px-White,
+.H1Style-54px-White li {
+	font-size: 54px !important;
+	color: #FFF !important;
+	font-weight: 400 !important;
+	margin-bottom: 30px !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H2Style-32px-Blue,
+.H2Style-32px-Blue li {
+	font-size: 32px !important;
+	color: #005EBC !important;
+	font-weight: 600 !important;
+	margin-bottom: 30px !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H2Style-32px-White,
+.H2Style-32px-White li {
+	font-size: 32px !important;
+	color: #FFF !important;
+	font-weight: 600 !important;
+	margin-bottom: 30px !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H3Style-36px-DarkBlue,
+.H3Style-36px-DarkBlue li {
+	font-size: 36px !important;
+	color: #002171 !important;
+	font-weight: 400 !important;
+	margin-bottom: 30px !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H3Style-36px-White,
+.H3Style-36px-White li {
+	font-size: 36px !important;
+	color: #FFF !important;
+	font-weight: 400 !important;
+	margin-bottom: 30px !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H4Style-20px-Blue,
+.H4Style-20px-Blue li {
+	font-size: 20px !important;
+	color: #005EBC !important;
+	font-weight: 600 !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H4Style-20px-White,
+.H4Style-20px-White li {
+	font-size: 20px !important;
+	color: #FFF !important;
+	font-weight: 600 !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H5Style-25px,
+.H5Style-25px li {
+	font-size: 25px !important;
+	font-weight: 400 !important;
+	line-height: 1.1 !important;
+	color: #555 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H5Style-25px-White,
+.H5Style-25px-White li {
+	font-size: 25px !important;
+	color: #FFF !important;
+	font-weight: 400 !important;
+	line-height: 1.1 !important;
+	font-family: 'Sailec-Medium', sans-serif !important;
+}
+
+.H6Style-14px,
+.H6Style-14px li {
+	font-size: 14px !important;
+	color: #555 !important;
+	font-weight: 500 !important;
+	line-height: 1.1 !important;
+	text-transform: uppercase !important;
+}
+
+.H6Style-14px-White,
+.H6Style-14px-White li {
+	font-size: 14px !important;
+	color: #FFF !important;
+	font-weight: 500 !important;
+	line-height: 1.1 !important;
+	text-transform: uppercase !important;
+}
+
+.SlideShow-Style-65px-White {
+	font-size: 65px !important;
+	color: #FFF !important;
+	font-weight: bold !important;
+}
+
+.Paragraph-Style-14px-White,
+.Paragraph-Style-14px-White li {
+	font-size: 14px !important;
+	color: #FFF !important;
+}
+
+.Paragraph-Style-16px,
+.Paragraph-Style-16px li,
+.gridElementTitle .Paragraph-Style-16px {
+	font-size: 16px !important;
+	color: #555 !important;
+}
+
+.Paragraph-Style-16px-White,
+.Paragraph-Style-16px-White li,
+.gridElementTitle .Paragraph-Style-16px-White {
+	font-size: 16px !important;
+	color: #FFF !important;
+}
+
+.Paragraph-Style-14px,
+.Paragraph-Style-14px li,
+.gridElementTitle .Paragraph-Style-14px {
+	font-size: 14px !important;
+	color: #555 !important;
+}
+
+.dark-blue {
+	color: #002171 !important;
+}
+
+.VioletFont {
+	color: #3E227E !important;
+}
+
+.BlueFont,
+.Blue {
+	color: #005EB8 !important;
+}
+
+.Red {
+	color: #BD1833 !important;
+}
+
+.certificationRED {
+	color: #E60000 !important;
+}
+
+.certificationGREEN {
+	color: #5BB700 !important;
+}
+
+.certificationDARK-GREEN {
+	color: #9DAD33 !important;
+}
+
+.Charcoal {
+	color: #292B30 !important;
+}
+
+.White {
+	color: #FFF !important;
+}
+
+.Yellow .btnWrapper a {
+	color: #FFF !important;
+}
+
+.Yellow .btnWrapper a:hover {
+	color: #555 !important;
+}
+
+.ButtonBlue {
+	border-radius: 30px;
+	color: #FFF;
+	background-color: #255FB0;
+	border: 1px solid #255FB0;
+	padding: 7px 20px 7px 20px;
+	margin-top: 35px;
+	text-decoration: none !important;
+}
+
+/*
+@font-face {
+    font-family: 'Sailec-Black-Italic';
+    src: url('../webfonts/SailecBlackItalic.otf') format('otf'),
+    url('../webfonts/SailecBlackItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Black';
+    src: url('../webfonts/SailecBlack.otf') format('otf'),
+    url('../webfonts/SailecBlack.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Bold-Italic';
+    src: url('../webfonts/SailecBoldItalic.otf') format('otf'),
+    url('../webfonts/SailecBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Bold';
+    src: url('../webfonts/SailecBold.otf') format('otf'),
+    url('../webfonts/SailecBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Hairline-Italic';
+    src: url('../webfonts/SailecHairlineItalic.otf') format('otf'),
+    url('../webfonts/SailecHairlineItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Hairline';
+    src: url('../webfonts/SailecHairline.otf') format('otf'),
+    url('../webfonts/SailecHairline.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Light-Italic';
+    src: url('../webfonts/SailecLightItalic.otf') format('otf'),
+    url('../webfonts/SailecLightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Light';
+    src: url('../webfonts/SailecLight.otf') format('otf'),
+    url('../webfonts/SailecLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Medium-Italic';
+    src: url('../webfonts/SailecMediumItalic.otf') format('otf'),
+    url('../webfonts/SailecMediumItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Medium';
+    src: url('../webfonts/SailecMedium.otf') format('otf'),
+    url('../webfonts/SailecMedium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Regular-Italic';
+    src: url('../webfonts/SailecRegularItalic.otf') format('otf'),
+    url('../webfonts/SailecRegularItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Thin';
+    src: url('../webfonts/SailecThin.otf') format('otf'),
+    url('../webfonts/SailecThin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Thin-Italic';
+    src: url('../webfonts/SailecThinItalic.otf') format('otf'),
+    url('../webfonts/SailecThinItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sailec-Regular';
+    src: url('../webfonts/Sailec.otf') format('otf'),
+    url('../webfonts/Sailec.ttf') format('truetype');
+}
+******* von US ******
+@font-face {
+    font-family: 'Sailec-BlackItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_1_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_1_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_1_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_1_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_1_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-HairlineItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_2_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_2_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_2_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_2_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_2_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-Hairline';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_3_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_3_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_3_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_3_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_3_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-BoldItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_4_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_4_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_4_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_4_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_4_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-Black';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_5_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_5_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_5_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_5_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_5_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-Light';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_6_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_6_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_6_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_6_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_6_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-LightItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_7_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_7_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_7_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_7_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_7_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-Medium';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_8_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_8_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_8_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_8_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-MediumItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_9_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_9_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_9_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_9_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_9_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-Regular';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_A_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_A_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_A_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_A_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_A_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-RegularItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_B_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_B_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_B_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_B_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_B_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-Thin';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_C_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_C_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_C_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_C_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_C_0.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sailec-ThinItalic';
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_D_0.eot');
+    src: url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_D_0.eot?#iefix') format('embedded-opentype'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_D_0.woff2') format('woff2'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_D_0.woff') format('woff'), url('https://s3.amazonaws.com/media.greatplacetowork.com/fonts/sailec/35330D_D_0.ttf') format('truetype');
+}
+*/

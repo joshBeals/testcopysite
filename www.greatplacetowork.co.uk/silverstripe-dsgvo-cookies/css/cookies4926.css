@@ -1,0 +1,332 @@
+.dsgvo-widget__notice {
+	/*display: none;*/
+	/*background: #FFF;*/
+	/*position: relative;*/
+	margin: 0 auto;
+	/*left: 0;*/
+	/*right: 0;*/
+	/*bottom: 20px;*/
+	/*width: 100%;*/
+	z-index: 1175;
+	/*padding: 17px 15px;*/
+	/*box-shadow: 0 2px 6px 3px rgba(0, 0, 0, .1);*/
+	margin-top: 25px;
+}
+
+
+.dsgvo-widget__notice-wrapper {
+	max-width: 1200px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin: 0 auto
+}
+
+.dsgvo-widget__notice-content {
+	color: #292929;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: stretch;
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+.dsgvo-widget__notice-content .text {
+	/*width: 100%;*/
+	/*padding: 0 15px 0 5px;*/
+}
+
+.dsgvo-widget__notice-content .text .dsgvo-show:hover {
+	cursor: pointer
+}
+
+.dsgvo-widget__notice-content .text .dsgvo-close {
+	text-decoration: underline
+}
+
+.dsgvo-widget__notice-content .text .dsgvo-close:hover {
+	cursor: pointer
+}
+
+.dsgvo-widget__notice-content .buttons {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin-top: 15px;
+}
+
+.dsgvo-widget__notice-content .buttons button {
+	width: 100%;
+	outline: none;
+	cursor: pointer;
+	font-size: 1.5rem;
+	display: block;
+	color: #FFF;
+	background: #6C757D;
+	padding: .1em 1.1em;
+	border: 1px solid #6C757D;
+	border-radius: .1em;
+	line-height: 32px;
+	transition: color .4s, background-color .7s;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dsgvo-widget__notice-content .buttons button:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.dsgvo-widget__notice-content .buttons button.green {
+	color: #FFF;
+	background: #005EBC;
+	border: 1px solid #005EBC;
+}
+
+.dsgvo-widget__popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 35px;
+	font-size: 13px;
+	width: 50%;
+	z-index: 1200;
+	color: #7A7A7A;
+	background: #FFF;
+	box-sizing: border-box;
+	border-radius: 3px;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12)
+}
+
+.dsgvo-widget__popup-bg {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #0D0A0A;
+	opacity: .7;
+	z-index: 1100;
+}
+
+.dsgvo-widget__popup-welcome {
+	width: 100%;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.dsgvo-widget__popup-categories {
+	margin-top: 16px
+}
+
+.dsgvo-widget__popup-footer {
+	margin-top: 24px;
+	overflow: hidden;
+	text-align: center
+}
+
+.dsgvo-widget__popup-footer-links {
+	line-height: 34px;
+	font-size: 11px
+}
+
+.dsgvo-widget__popup-footer-links span {
+	transition: all ease .2s
+}
+
+.dsgvo-widget__popup-footer-links span:hover {
+	cursor: pointer;
+	color: #005EBC
+}
+
+.dsgvo-widget__popup-footer-round-button button {
+	width: 100%;
+	outline: none;
+	cursor: pointer;
+	font-size: 13px;
+	display: block;
+	color: #FFF;
+	background: #005EBC;
+	padding: .1em 1.1em;
+	border: 1px solid #005EBC;
+	border-radius: .1em;
+	line-height: 32px;
+	transition: color .4s, background-color .7s;
+	/*white-space: nowrap;*/
+	/*overflow: hidden;*/
+	text-overflow: ellipsis
+}
+
+.invertedBtn button {
+	background-color: #FFF;
+	border: 1px solid #005EBC;
+	color: #005EBC;
+}
+
+.dsgvo-widget__popup-categories-item {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-bottom: 14px
+}
+
+.dsgvo-widget__popup-categories-item-name {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	max-width: calc(100% - 72px)
+}
+
+.dsgvo-widget__popup-categories-item-name strong {
+	font-size: 15px
+}
+
+.dsgvo-widget__popup-categories-item-count {
+	color: #989898;
+	font-size: 11px
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch {
+	position: relative;
+	width: 32px;
+	-webkit-user-select: none
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-checkbox {
+	display: none
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	height: 14px;
+	padding: 0;
+	line-height: 20px;
+	border: 0 solid #FFF;
+	border-radius: 31px;
+	background-color: #9E9E9E
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-label:before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: -5.5px -14px -5.5px -5.5px;
+	background: #FFF;
+	position: absolute;
+	top: 1px;
+	bottom: 0;
+	border-radius: 31px;
+	transition: all ease .2s;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12)
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-checkbox:checked + .onoffswitch-label {
+	background-color: #D5E2EF
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+	margin-left: 0
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+	right: 10px;
+	background-color: #005EBC
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-checkbox--disabled:checked + .onoffswitch-label {
+	background: #D3D4D4
+}
+
+.dsgvo-widget__popup-categories-item .onoffswitch-checkbox--disabled:checked + .onoffswitch-label:before {
+	background: #A7AEB5
+}
+
+.dsgvo-widget__fixBody {
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
+}
+
+.pt-15 {
+	padding-top: 15px;
+}
+
+@media all and (max-width: 520px) {
+	.dsgvo-widget__notice-wrapper {
+		-ms-flex-direction: column;
+		flex-direction: column
+	}
+
+	.dsgvo-widget__notice-wrapper .dsgvo-widget__notice-actions {
+		margin-left: 0;
+		margin-top: 20px
+	}
+}
+
+@media all and (min-width: 576px) {
+	.dsgvo-widget__notice {
+		max-width: 540px;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.dsgvo-widget__notice {
+		max-width: 720px;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.dsgvo-widget__notice {
+		max-width: 960px;
+	}
+
+	.dsgvo-widget__notice-content {
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.dsgvo-widget__notice-content .buttons {
+		margin-top: 0;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.dsgvo-widget__notice {
+		max-width: 1140px;
+	}
+}
+
+@media (max-width: 768px) {
+	.dsgvo-widget__popup-footer-round-button {
+		margin-top: 25px;
+	}
+
+	.dsgvo-widget__popup {
+		width: 80%;
+	}
+}
+
+@media (max-width: 550px) {
+	.dsgvo-widget__popup {
+		width: 95%;
+		padding: 25px 0;
+		height: 100%;
+		overflow-x: auto;
+	}
+}

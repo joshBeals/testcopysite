@@ -1,0 +1,860 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.workplaceContainer {
+	padding-top: 50px !important;
+}
+
+.wrapperDownloads {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.wrapperVideo {
+	/* padding-top: 35px; */
+	margin-top: 35px;
+}
+
+.box {
+	/*box-shadow: 0px 0px 3px #aaa;*/
+	background-color: #FFF;
+	margin-bottom: 25px;
+	padding: 25px;
+	/*height: 100%;*/
+}
+
+.box a {
+	color: #255FB0;
+}
+
+.bx-viewport {
+	left: 0 !important;
+}
+
+.flexed {
+}
+
+.wpLogo {
+	padding: 10px;
+}
+
+.boxNoMargin {
+	margin-bottom: 0;
+}
+
+.surveyLine {
+	min-height: 80px;
+}
+
+.box h1, .box h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.gptw-rnd {
+	width: 350px;
+	height: 153.13px;
+}
+
+.workplaceTable {
+	padding-bottom: 25px;
+}
+
+.workplaceHeadline {
+	font-weight: bold;
+}
+
+.workplaceTable h6 {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.workplaceTableLeft, .workplaceTableRight {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	/* border-bottom: 1px solid #ccc; */
+	font-size: 16px;
+}
+
+.workplaceTableRight a {
+	word-break: break-all;
+}
+
+.workplaceTableWrapper {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+	overflow: hidden;
+}
+
+.workplaceRow {
+	border-bottom: 1px solid #000;
+	padding-bottom: 2px;
+}
+
+.awardTitle {
+	color: #000 !important;
+	font-size: 14px !important;
+}
+
+.workplaceTableLeft {
+}
+
+.workplaceTitle {
+	font-size: 36px !important;
+}
+
+.workplaceTableRight {
+
+}
+
+.downloadFont {
+	color: #00ADEF !important;
+	font-size: 18px !important;
+	margin-bottom: 4px;
+	margin-top: 0;
+}
+
+.socialSpace {
+	margin-top: 0;
+	/*min-height: 80px;*/
+	padding-bottom: 20px;
+}
+
+.surveyResult {
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+.surveyLine {
+	margin-top: 8px;
+}
+
+
+.smallCharts h4 {
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+.surveyImg {
+	display: inline-block;
+	max-height: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.containerStats {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* .bossHeading {
+  font-weight: bold;
+  font-size: 22px!important;
+  color: #fff!important;
+  margin-bottom: 3px;
+  margin-top: 35px;
+}
+.bossHeadingSmall {
+  text-transform: none!important;
+  font-weight: 400;
+  margin-top: 3px;
+  color: #fff!important;
+} */
+
+.bossHeading {
+	font-size: 20px !important;
+}
+
+.bossHeadingSmall {
+	font-size: 18px !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.careerContainer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.surveyContainer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.employeeContainer {
+	margin-top: 50px;
+}
+
+.jobTitle {
+	display: inline;
+	text-align: left;
+	font-size: 18px !important;
+}
+
+.jobLine {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.jobLineHead {
+	border-bottom: 1px solid #CCC !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 10px;
+}
+
+.typography h6.jobLineHead {
+	color: white;
+}
+
+.careerContainer h6 {
+	text-transform: none !important;
+	color: #00ADEF !important;
+	font-size: 20px !important;
+}
+
+.mainContainer h6 {
+	text-transform: none !important;
+	color: #00ADEF;
+	font-size: 20px !important;
+}
+
+.mainContainer {
+	padding-top: 20px;
+	/*color: #5C6066;*/
+	color: #555;
+}
+
+.jobLocation {
+	text-align: center;
+}
+
+.jobContent {
+	display: inline;
+	color: white;
+}
+
+.workplaceTeaser {
+	padding: 5px;
+	margin-bottom: 20px;
+	-webkit-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	transition: all ease 1s;
+	border: 3px solid transparent;
+}
+
+.blueGreatProfileBorder {
+	border-color: #255FB0;
+}
+
+.workplaceRankingTeaser {
+	padding: 5px;
+	margin-bottom: 30px;
+	border: 0.5px solid #CCC;
+}
+
+.workplaceTeaserLogo {
+	margin-left: 20px;
+	position: absolute;
+	background-color: #FFF;
+	padding: 5px;
+	max-width: 60%;
+	z-index: 999;
+}
+
+.specialCatNoStyleLink {
+	color: inherit !important;
+}
+
+.bossContainer {
+	/* margin-top: 30px; */
+}
+
+.workplaceTeaserContent {
+	padding: 3px 10px;
+	font-size: 14px;
+	min-height: 220px;
+	/*max-height: 191px;*/
+}
+
+
+.workplaceRankingContent {
+	padding: 3px 10px 10px;
+	font-size: 14px;
+	/* min-height: 154px;
+	max-height: 154px; */
+}
+
+.workplaceSpecialCategoryBadge {
+	margin: 0 0 0 5px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	/* color: #255fb0; */
+	background-color: #FFF;
+	text-transform: none;
+	font-weight: bold;
+	float: left;
+	border: 1px solid;
+}
+
+.workplaceTitleElem .workplaceSpecialCategoryBadge {
+	float: right;
+}
+
+.workplaceFilterButton {
+	background-color: #255FB0 !important;
+	color: #FFF;
+	font-size: 18px !important;
+	border: 1px solid #255FB0;
+	border-radius: 25px;
+	padding: 9px 15px !important;
+	padding-top: 11px !important;
+	line-height: 15px !important;
+	width: 200px;
+}
+
+.workplaceFilterButton:hover {
+	background-color: #FFF !important;
+	color: #255FB0;
+	border-color: #255FB0;
+}
+
+.workplaceFilterButton:focus {
+	outline: none;
+}
+
+.filterBtnContainer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: -80px -15px 55px;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.mobileContentNavFilter {
+	padding-top: 10px;
+}
+
+.workplaceSubNavTab {
+	float: left;
+	width: auto;
+	margin-right: 15px;
+	padding-right: 20px;
+}
+
+.whiteBtnNav {
+	padding-left: 20px;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+	border-radius: 30px !important;
+	margin-bottom: 20px !important;
+	text-transform: uppercase;
+	border: 1px solid #FFF;
+	cursor: pointer;
+	color: #FFF;
+}
+
+.workplaceSubNavTab:hover {
+	border-color: #FFF;
+	color: #000;
+	background-color: #FFF;
+}
+
+.workplaceSubNavTab:hover .navlabelBorder {
+	border-color: #000;
+	color: #000;
+}
+
+.workplaceSubNavTabActive {
+	background-color: #255FB0;
+	color: #FFF;
+	border-color: #255FB0;
+}
+
+.workplaceFilterWrapper {
+	background-color: #4E4E4E;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.ajaxLoading {
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	font-size: 16px;
+	color: #666;
+}
+
+.btnSearchNavFilter {
+	float: right;
+}
+
+.btnSearchNav {
+	float: right;
+}
+
+.btnSearchNav input,
+.btnSearchNavFilter input {
+	border-color: #FFF;
+	background: transparent;
+	border-radius: 15px;
+}
+
+.btnSearchNav input:focus,
+.btnSearchNavFilter input:focus {
+	outline: none;
+}
+
+.filterElements .btnSearchNav,
+.filterElements .btnSearchNavFilter {
+	margin-top: 15px;
+}
+
+.btnSearchNav .whiteBtnNav:hover,
+.btnSearchNavFilter .whiteBtnNav:hover {
+	background-color: #FFF;
+	color: #000;
+	border-color: #FFF;
+}
+
+.ajaxContent {
+	display: none;
+}
+
+.ajaxContentSearch {
+	display: none;
+}
+
+.iconSocial {
+	max-width: 32px;
+}
+
+.bossContent {
+	font-size: 26px;
+}
+
+.bossContent p {
+	font-size: 26px !important;
+}
+
+.downloadIcon {
+	background-color: #00ADEF;
+	padding: 2px;
+	max-width: 22px;
+	image-rendering: -webkit-optimize-contrast;
+	display: inline-block;
+}
+
+.rankingSpace {
+	padding-top: 10px;
+}
+
+.ranking_has_padding > div {
+	max-width: 33%;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.filterContentBg {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logoImgWrapper img {
+	float: right;
+	margin-bottom: 15px;
+}
+
+.workplaceMobileImg img {
+	margin-bottom: 15px;
+}
+
+.filterBtnMenu {
+	text-align: right;
+}
+
+.awardLogo img {
+	float: none;
+	margin: auto;
+}
+
+.workplaceTeaserContent .workplaceSpecialCategoryBadge {
+	margin: 5px;
+	float: left;
+	/*position: absolute;*/
+}
+
+.row-bordered:after {
+	content: "";
+	display: block;
+	border-bottom: 1px solid #5C6066;
+	margin: 0 15px;
+}
+
+.row-bordered-white:before {
+	content: "";
+	display: block;
+	border-bottom: 1px solid #FFF;
+	margin: 0 15px;
+}
+
+.subNavFilter {
+	margin-top: 30px;
+}
+
+.quoteHeadline {
+	font-size: 38px !important;
+	font-family: 'Sailec-Bold', sans-serif !important;
+}
+
+.fileExt {
+	margin-bottom: 15px;
+}
+
+.downloadRow {
+	margin-bottom: 20px;
+}
+
+.socialMargin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.readMoreContent {
+	max-height: 550px;
+}
+
+.quoteReadMore, .bossReadMore {
+	max-height: 500px;
+}
+
+.downloadWrapper {
+	min-height: 75px;
+}
+
+.introductionContent {
+	max-height: 350px;
+}
+
+.contentLineContent a {
+	margin-top: 15px;
+}
+
+.introReadMoreBig {
+	max-height: 550px;
+}
+
+.readMoreRanking {
+	max-height: 420px;
+}
+
+.introReadMoreSmall {
+	max-height: 300px;
+}
+
+.subCompanies p,
+.subCompanies {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.subCompanies p {
+	margin-bottom: 5px;
+}
+
+.subCompanies {
+	margin-bottom: 20px;
+}
+
+.subCompaniesResponsive p {
+	font-size: 11px;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+
+.blueAdmin {
+	color: #255FB0;
+}
+
+.bx-wrapper .bx-next {
+	right: -50px;
+}
+
+.bx-wrapper .bx-prev {
+	left: -50px;
+}
+
+.startPageSearchButton.careerBtn {
+	background-color: #255FB0;
+	color: #FFF;
+	width: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-transform: inherit;
+	margin-left: 0;
+}
+
+.bg-jobs {
+	background-color: #009FE3;
+}
+
+a:hover .jobTitle {
+	color: white;
+	text-decoration: none;
+}
+
+.employeeReadMore, .cultureReadMore, .benefitReadMore, .specialReadMore {
+	max-height: 300px;
+}
+
+.bossContentReadMore {
+	max-height: 400px;
+}
+
+.employeeReadMore, .cultureReadMore, .benefitReadMore, .bossContentReadMore, .specialReadMore, .introReadMoreBig, .introReadMoreSmall {
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.readmore-text {
+	color: #255FB0;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.readmore {
+	position: absolute;
+	background: rgb(255, 255, 255);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #D5E2EF));
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #D5E2EF 90%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #D5E2EF 90%);
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	padding-bottom: 10px;
+	text-align: left;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	left: 0;
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.readmore.grey {
+	background: rgb(255, 255, 255);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #FBF9F9));
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #FBF9F9 90%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FBF9F9 90%);
+}
+
+.readmore.blue .readmore-text {
+	color: white;
+}
+
+
+.readmore.blue {
+	background: rgb(255, 255, 255);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #005EB8));
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #005EB8 90%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #005EB8 90%);
+}
+
+.readmore.white {
+	background: rgb(255, 255, 255);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, #FFF));
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #FFF 90%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFF 90%);
+}
+
+.workplaceContainer .contentLineContent {
+	padding: 0 15px 0 15px !important;
+}
+
+.typography .employeeContent p {
+	font-size: 18px;
+}
+
+.surveyText {
+	font-size: 14px;
+	margin-top: 14px;
+}
+
+/*.owl-nav{*/
+/*	display: none;*/
+/*}*/
+
+
+.owl-carousel .owl-nav button.owl-next > span, .owl-carousel .owl-nav button.owl-prev > span {
+	color: #005EBC;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+	top: 30%;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+	left: -5%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+	right: -5%;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+	background: 0 0;
+	color: inherit;
+	border: none;
+	padding: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+	position: absolute;
+	top: 20%;
+	font-size: 70px !important;
+	color: #FFF;
+	background: transparent;
+	outline: none !important;
+	opacity: 0.7;
+	padding: 0;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.owl-theme .owl-nav {
+	margin-top: 10px;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.workplaceContainer h2 {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+.pt-80 {
+	padding-top: 80px;
+}
+
+.introQuoteSpace {
+	margin-bottom: 30px;
+}
+
+/* Sidebar */
+
+.workplaceSidebar {
+	display: block;
+	position: absolute;
+	top: 200px;
+	right: 0;
+	width: calc((100% - 1220px) / 2);
+	margin: 0 5px;
+	border: 1px solid #005EBC;
+}
+
+.workplaceSidebarMobile {
+	border: 1px solid #005EBC;
+	display: none;
+}
+
+.workplaceSidebarMobile iframe {
+	width: auto;
+}
+
+.workplaceSidebar .inside {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+@media (max-width: 1700px) {
+	.workplaceSidebar {
+		display: none;
+	}
+
+	.workplaceSidebarMobile {
+		display: block;
+	}
+}
+
+.job-wrapper {
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+}
+
+
+.germany_ranking {
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.germany_ranking .quadAwardLogo {
+	max-width: 175px;
+}
+
+.sidebar_item {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 15px 0;
+}
+
+.sidebar_item_mobile {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 280px;
+}
+
+
+.sidebar_item .sidebar_item_image {
+	width: 40%;
+}
+
+.sidebar_item .sidebar_item_text a {
+	color: #00ADEF !important;
+}
+
+.sidebar_item .sidebar_item_text {
+	word-break: break-word;
+	width: 60%;
+	display: flex;
+	align-self: center;
+	padding-left: 15px;
+}
+
+.sidebar_item_mobile .sidebar_item_text {
+	margin-top: 10px;
+}
+
+.sidebar_item_mobile .sidebar_item_text a {
+	color: #00ADEF !important;
+}
+
+.sidebar_item_mobile .sidebar_item_image img {
+	margin: auto;
+}
